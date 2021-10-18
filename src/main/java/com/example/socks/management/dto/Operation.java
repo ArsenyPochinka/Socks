@@ -3,7 +3,7 @@ package com.example.socks.management.dto;
 import com.fasterxml.jackson.annotation.JsonCreator;
 
 public enum Operation {
-    EQUALS,
+    EQUAL,
     MORETHEN,
     LESSTHEN;
 

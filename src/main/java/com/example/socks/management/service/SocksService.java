@@ -31,7 +31,7 @@ public class SocksService {
     public Integer getNumberTypeOfSocks(Color color, Operation operation, Integer cottonPart) {
         Integer result = 0;
         switch (operation) {
-            case EQUALS: {
+            case EQUAL: {
                 SocksEntity socksEntity = new SocksEntity(color, cottonPart);
                 result = socksDao.getNumberTypeOfSocksInTheBox(socksEntity);
             }
